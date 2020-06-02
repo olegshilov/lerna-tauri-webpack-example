@@ -1,0 +1,21 @@
+{
+  "name": "web-app",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Oleg Shilov <me@olegshilov.com>",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "TAURI=1 webpack-dev-server",
+    "build": "TAURI=1 webpack"
+  },
+  "devDependencies": {
+    "@tauri-apps/tauri-webpack": "0.2.0",
+    "html-webpack-plugin": "4.3.0",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0",
+    "webpack-merge": "4.2.2"
+  }
+}

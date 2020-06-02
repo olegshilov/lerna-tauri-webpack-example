@@ -1,0 +1,15 @@
+{
+  "name": "tauri-app",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Oleg Shilov <me@olegshilov.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "tauri dev",
+    "build": "tauri build"
+  },
+  "dependencies": {
+    "tauri": "0.6.2"
+  }
+}
